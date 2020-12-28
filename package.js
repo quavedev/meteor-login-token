@@ -11,7 +11,7 @@ Npm.depends({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.2');
+  api.versionsFrom('1.12');
 
   api.use([
     'tracker',
@@ -21,7 +21,7 @@ Package.onUse(function(api) {
     'mongo',
     'underscore',
     'http',
-    'raix:eventemitter@0.1.3',
+    'raix:eventemitter@1.0.0',
   ], ['client', 'server']);
 
 
@@ -33,13 +33,13 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use('sanjo:jasmine@0.20.1');
+  api.use('sanjo:jasmine');
 
   api.use('http', 'client');
 
   api.use([
     'accounts-base',
-    'dispatch:login-token',
+    'quave:login-token',
     'ecmascript',
   ], ['client', 'server']);
 

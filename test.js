@@ -2,7 +2,7 @@ if (Meteor.isServer) {
   Meteor.methods({
     getLoginToken: function(userId) {
       if (userId) {
-        return LoginToken.createTokenForUser(userId);
+        return LoginToken.findOrCreateTokenForUser(userId);
       }
       return null;
     },
