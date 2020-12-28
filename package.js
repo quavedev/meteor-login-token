@@ -1,9 +1,9 @@
 Package.describe({
-  name: 'dispatch:login-token',
-  version: '0.1.2',
+  name: 'quave:login-token',
+  version: '1.0.0',
   summary: 'Log the user in if they have the correct single-use token ' +
     'in the URL',
-  git: 'https://github.com/DispatchMe/meteor-login-token',
+  git: 'https://github.com/quavedev/meteor-login-token',
 });
 
 Npm.depends({

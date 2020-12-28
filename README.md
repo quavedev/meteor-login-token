@@ -1,20 +1,21 @@
 login-token
 ============
+forked from DispatchMe/meteor-login-token
 
-Automatically log in a user if a valid, unexpired, single-use `authToken` is present in the URL.
+Automatically log in a user if a valid, unexpired `authToken` is present in the URL.
 
-Use at your own risk. We use it for logging in via email and SMS notifications.
+Use at your own risk.
 
 ## Usage
 
 ### Add package
 ```
-$ meteor add dispatch:login-token
+$ meteor add quave:login-token
 ```
 
 ### Generate a token for a user (server-only)
 ```js
-const token = LoginToken.createTokenForUser(userId);
+const token = LoginToken.findOrCreateTokenForUser(userId);
 ```
 
 ### Log in...
