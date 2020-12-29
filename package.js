@@ -1,6 +1,6 @@
 Package.describe({
   name: 'quave:login-token',
-  version: '1.0.1',
+  version: '1.0.2',
   summary: 'Log the user in if they have the correct single-use token ' +
     'in the URL',
   git: 'https://github.com/quavedev/meteor-login-token',

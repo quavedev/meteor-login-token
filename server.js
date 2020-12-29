@@ -72,5 +72,5 @@ LoginToken.findOrCreateTokenForUser = function (userId, tokenCollection = LoginT
         });
         return token;
     }
-    return existing;
+    return existing.token;
 };
