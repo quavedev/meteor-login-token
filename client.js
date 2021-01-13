@@ -48,18 +48,18 @@ LoginToken.checkToken = function (token, params, argName = 'authToken') {
           LoginToken.emit('errorClient', err);
         } else {
           LoginToken.emit('loggedInClient');
+        }
+        if (params) {
+          delete params[argName];
 
-          if (params) {
-            delete params[argName];
+          // Make it look clean by removing the authToken from the URL
+          if (window.history) {
+            const url =`${window.location.href.split('?')[0]}?${objectToQueryString(params)}`;
 
-            // Make it look clean by removing the authToken from the URL
-            if (window.history) {
-              const url =`${window.location.href.split('?')[0]}?${objectToQueryString(params)}`;
-
-              window.history.pushState(null, null, url);
-            }
+            window.history.pushState(null, null, url);
           }
         }
+
       },
     });
   }
