@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a23a44d2-f559-4861-bfe2-d1406c8817b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.npm/package/npm-shrinkwrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/.npm/package/npm-shrinkwrap.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.versions" beforeDir="false" afterPath="$PROJECT_DIR$/.versions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.js" beforeDir="false" afterPath="$PROJECT_DIR$/package.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
+    <list default="true" id="a23a44d2-f559-4861-bfe2-d1406c8817b0" name="Default Changelist" comment="Fix bug on existing token">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +34,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609182236713</updated>
-      <workItem from="1609182237953" duration="536000" />
+      <workItem from="1609182237953" duration="875000" />
+      <workItem from="1609275446046" duration="1032000" />
+      <workItem from="1609331673774" duration="17000" />
+      <workItem from="1610575719971" duration="807000" />
+      <workItem from="1610626539598" duration="1870000" />
+      <workItem from="1610750121137" duration="2027000" />
     </task>
     <task id="LOCAL-00001" summary="First version">
       <created>1609182512719</created>
@@ -45,7 +48,42 @@
       <option name="project" value="LOCAL" />
       <updated>1609182512719</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updates on package versions">
+      <created>1609182803449</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609182803449</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updates on package versions">
+      <created>1609182924474</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609182924474</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updates on package versions">
+      <created>1609183105834</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609183105834</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix bug on existing token">
+      <created>1609275466465</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609275466465</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix bug on existing token">
+      <created>1610575922336</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610575922336</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -61,9 +99,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First version" />
-    <option name="LAST_COMMIT_MESSAGE" value="First version" />
+    <MESSAGE value="Updates on package versions" />
+    <MESSAGE value="Fix bug on existing token" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bug on existing token" />
   </component>
 </project>
