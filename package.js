@@ -1,6 +1,6 @@
 Package.describe({
   name: 'quave:login-token',
-  version: '1.0.3',
+  version: '2.0.0',
   summary: 'Log the user in if they have the correct single-use token ' +
     'in the URL',
   git: 'https://github.com/quavedev/meteor-login-token',
@@ -11,8 +11,7 @@ Npm.depends({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.2');
-
+  api.versionsFrom(['1.9', '2.3']);
   api.use([
     'tracker',
     'check',
